@@ -1,0 +1,18 @@
+[application]
+config/name="Cosmic Star Runner"
+run/main_scene="res://scenes/game.tscn"
+
+[display]
+window/size/width=1280
+window/size/height=720
+window/resizable=false
+
+[input]
+jump={
+"deadzone": 0.5,
+"events": [
+Object(InputEventKey,scancode=32),
+Object(InputEventKey,scancode=87),
+Object(InputEventKey,scancode=265)
+]
+}
